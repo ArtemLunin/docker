@@ -5,7 +5,6 @@ $username	= "helloworld";
 $password	= "<db-password>";
 
 try {
-
 	$conn = new PDO( "mysql:host=$hostname;dbname=$dbname", $username, $password );
 
 	// Configure PDO error mode
