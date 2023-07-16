@@ -1,0 +1,1675 @@
+# Created by 
+# /usr/bin/cfgmaker --ifref=name --global "WorkDir: /mrtg/html" --global "Options[_]: growright, bits" --global "EnableIPv6: no" --global "LogFormat: rrdtool" --snmp-options=:161::::2 --output=/etc/mrtg/conf.d/No more variables left in this MIB View (It is past the end of the MIB tree).cfg public@10.255.2.200
+
+
+### Global Config Options
+
+#  for UNIX
+# WorkDir: /home/http/mrtg
+
+#  for NT
+# WorkDir: c:\mrtgdata
+
+#  for several Linux, like Debian, RHEL and it's derivatives
+# WorkDir: /var/www/html/mrtg
+
+#  for others Linux
+# WorkDir: /srv/http/mrtg
+
+### Global Defaults
+
+#  to get bits instead of bytes and graphs growing to the right
+# Options[_]: growright, bits
+
+EnableIPv6: no
+WorkDir: /mrtg/html
+Options[_]: growright, bits
+EnableIPv6: no
+LogFormat: rrdtool
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+
+######################################################################
+# System: 
+# Description: 
+# Contact: 
+# Location: 
+######################################################################
+
+
+### Interface 1 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.1)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195549
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_1]: 1:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_1]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_1]: 0
+# Title[10.255.2.200_1]: Traffic Analysis for 1 -- 
+# PageTop[10.255.2.200_1]: <h1>Traffic Analysis for 1 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 2 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.2)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195552
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_2]: 2:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_2]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_2]: 0
+# Title[10.255.2.200_2]: Traffic Analysis for 2 -- 
+# PageTop[10.255.2.200_2]: <h1>Traffic Analysis for 2 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 3 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.3)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195555
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_3]: 3:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_3]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_3]: 0
+# Title[10.255.2.200_3]: Traffic Analysis for 3 -- 
+# PageTop[10.255.2.200_3]: <h1>Traffic Analysis for 3 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 4 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.4)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195558
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_4]: 4:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_4]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_4]: 0
+# Title[10.255.2.200_4]: Traffic Analysis for 4 -- 
+# PageTop[10.255.2.200_4]: <h1>Traffic Analysis for 4 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 5 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.5)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195561
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_5]: 5:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_5]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_5]: 0
+# Title[10.255.2.200_5]: Traffic Analysis for 5 -- 
+# PageTop[10.255.2.200_5]: <h1>Traffic Analysis for 5 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 6 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.6)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195564
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_6]: 6:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_6]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_6]: 0
+# Title[10.255.2.200_6]: Traffic Analysis for 6 -- 
+# PageTop[10.255.2.200_6]: <h1>Traffic Analysis for 6 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 7 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.7)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195567
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_7]: 7:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_7]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_7]: 0
+# Title[10.255.2.200_7]: Traffic Analysis for 7 -- 
+# PageTop[10.255.2.200_7]: <h1>Traffic Analysis for 7 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 8 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.8)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195570
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_8]: 8:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_8]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_8]: 0
+# Title[10.255.2.200_8]: Traffic Analysis for 8 -- 
+# PageTop[10.255.2.200_8]: <h1>Traffic Analysis for 8 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 9 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.9)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195573
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_9]: 9:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_9]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_9]: 0
+# Title[10.255.2.200_9]: Traffic Analysis for 9 -- 
+# PageTop[10.255.2.200_9]: <h1>Traffic Analysis for 9 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 10 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.10)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195576
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_10]: 10:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_10]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_10]: 0
+# Title[10.255.2.200_10]: Traffic Analysis for 10 -- 
+# PageTop[10.255.2.200_10]: <h1>Traffic Analysis for 10 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 11 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.11)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195579
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_11]: 11:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_11]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_11]: 0
+# Title[10.255.2.200_11]: Traffic Analysis for 11 -- 
+# PageTop[10.255.2.200_11]: <h1>Traffic Analysis for 11 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 12 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.12)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195582
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_12]: 12:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_12]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_12]: 0
+# Title[10.255.2.200_12]: Traffic Analysis for 12 -- 
+# PageTop[10.255.2.200_12]: <h1>Traffic Analysis for 12 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 13 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.13)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195585
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_13]: 13:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_13]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_13]: 0
+# Title[10.255.2.200_13]: Traffic Analysis for 13 -- 
+# PageTop[10.255.2.200_13]: <h1>Traffic Analysis for 13 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 14 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.14)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195588
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_14]: 14:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_14]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_14]: 0
+# Title[10.255.2.200_14]: Traffic Analysis for 14 -- 
+# PageTop[10.255.2.200_14]: <h1>Traffic Analysis for 14 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 15 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.15)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195591
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_15]: 15:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_15]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_15]: 0
+# Title[10.255.2.200_15]: Traffic Analysis for 15 -- 
+# PageTop[10.255.2.200_15]: <h1>Traffic Analysis for 15 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 16 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.16)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195594
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_16]: 16:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_16]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_16]: 0
+# Title[10.255.2.200_16]: Traffic Analysis for 16 -- 
+# PageTop[10.255.2.200_16]: <h1>Traffic Analysis for 16 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 17 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.17)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195597
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_17]: 17:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_17]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_17]: 0
+# Title[10.255.2.200_17]: Traffic Analysis for 17 -- 
+# PageTop[10.255.2.200_17]: <h1>Traffic Analysis for 17 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 18 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.18)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195600
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_18]: 18:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_18]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_18]: 0
+# Title[10.255.2.200_18]: Traffic Analysis for 18 -- 
+# PageTop[10.255.2.200_18]: <h1>Traffic Analysis for 18 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 19 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.19)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195603
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_19]: 19:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_19]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_19]: 0
+# Title[10.255.2.200_19]: Traffic Analysis for 19 -- 
+# PageTop[10.255.2.200_19]: <h1>Traffic Analysis for 19 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 20 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.20)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195606
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_20]: 20:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_20]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_20]: 0
+# Title[10.255.2.200_20]: Traffic Analysis for 20 -- 
+# PageTop[10.255.2.200_20]: <h1>Traffic Analysis for 20 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 21 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.21)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195609
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_21]: 21:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_21]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_21]: 0
+# Title[10.255.2.200_21]: Traffic Analysis for 21 -- 
+# PageTop[10.255.2.200_21]: <h1>Traffic Analysis for 21 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 22 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.22)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195612
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_22]: 22:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_22]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_22]: 0
+# Title[10.255.2.200_22]: Traffic Analysis for 22 -- 
+# PageTop[10.255.2.200_22]: <h1>Traffic Analysis for 22 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 23 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.23)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195615
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_23]: 23:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_23]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_23]: 0
+# Title[10.255.2.200_23]: Traffic Analysis for 23 -- 
+# PageTop[10.255.2.200_23]: <h1>Traffic Analysis for 23 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 24 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.24)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195618
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_24]: 24:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_24]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_24]: 0
+# Title[10.255.2.200_24]: Traffic Analysis for 24 -- 
+# PageTop[10.255.2.200_24]: <h1>Traffic Analysis for 24 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 25 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.25)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195621
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_25]: 25:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_25]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_25]: 0
+# Title[10.255.2.200_25]: Traffic Analysis for 25 -- 
+# PageTop[10.255.2.200_25]: <h1>Traffic Analysis for 25 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 26 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.26)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195624
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_26]: 26:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_26]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_26]: 0
+# Title[10.255.2.200_26]: Traffic Analysis for 26 -- 
+# PageTop[10.255.2.200_26]: <h1>Traffic Analysis for 26 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 27 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.27)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195627
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_27]: 27:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_27]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_27]: 0
+# Title[10.255.2.200_27]: Traffic Analysis for 27 -- 
+# PageTop[10.255.2.200_27]: <h1>Traffic Analysis for 27 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+
+### Interface 28 >> Descr: 'No-Description' | Name: 'No Name' | Ip: 'No Ip' | Eth: 'No Ethernet Id' ###
+### The following interface is commented out because:
+### * has no ifSpeed property
+### * got 'Received SNMP response with error code
+###       error status: genErr
+###       index 1 (OID: 1.3.6.1.2.1.2.2.1.10.28)
+###     SNMPv2c_Session (remote host: "10.255.2.200" [10.255.2.200].161)
+###                        community: "public"
+###                       request ID: 601195630
+###                      PDU bufsize: 8000 bytes
+###                          timeout: 2s
+###                          retries: 5
+###                          backoff: 1)' from interface when trying to query
+### * --ifref=name is not unique for this interface
+# 
+# Target[10.255.2.200_28]: 28:public@10.255.2.200:161::::2
+# SetEnv[10.255.2.200_28]: MRTG_INT_IP="No Ip" MRTG_INT_DESCR="No-Description"
+# MaxBytes[10.255.2.200_28]: 0
+# Title[10.255.2.200_28]: Traffic Analysis for 28 -- 
+# PageTop[10.255.2.200_28]: <h1>Traffic Analysis for 28 -- </h1>
+# 		<div id="sysdetails">
+# 			<table>
+# 				<tr>
+# 					<td>System:</td>
+# 					<td> in </td>
+# 				</tr>
+# 				<tr>
+# 					<td>Maintainer:</td>
+# 					<td></td>
+# 				</tr>
+# 				<tr>
+# 					<td>Description:</td>
+# 					<td>No-Description  </td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifType:</td>
+# 					<td>Unknown Interface Type (Unknown Type)</td>
+# 				</tr>
+# 				<tr>
+# 					<td>ifName:</td>
+# 					<td>No Name</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Max Speed:</td>
+# 					<td>0.0 bits/s</td>
+# 				</tr>
+# 				<tr>
+# 					<td>Ip:</td>
+# 					<td>No Ip (No DNS name)</td>
+# 				</tr>
+# 			</table>
+# 		</div>
+
+

@@ -14,7 +14,9 @@ services:
       - ./logs:/var/log/apache2/
   php:
     container_name: php
-    build: ./docker/php
+    build:
+        context: ./docker/php
+        dockerfile: Dockerfile
     links:
       - mysql
     ports:

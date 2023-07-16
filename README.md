@@ -14,7 +14,7 @@ cd apache-mysql-mongo
 docker compose -f docker-compose-mongo.yml compose up -d
 
 ## run apache-php-mysql stack
-docker compose compose up -d
+docker compose up -d
 
 web-interface
 <http://localhost:8080/>

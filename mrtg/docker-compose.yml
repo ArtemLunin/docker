@@ -1,0 +1,22 @@
+version: "3.5"
+
+services:
+  mrtg:
+    image: fboaventura/dckr-mrtg:latest
+    hostname: mrtg
+    restart: always
+    ports:
+      - "8880:80"
+    volumes:
+      - "./conf.d:/etc/mrtg/conf.d"
+      - "./html:/mrtg/html"
+      - "/etc/localtime:/etc/localtime:ro"
+      - "/etc/timezone:/etc/timezone:ro"
+    environment:
+        TZ: "UTC"
+        HOSTS: "public:10.255.2.200"
+        WEBDIR: "/mrtg/html"
+        USERID: 1000
+        GROUPID: 1000
+    tmpfs:
+      - "/run"
