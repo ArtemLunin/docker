@@ -16,6 +16,9 @@ docker compose -f docker-compose-mongo.yml compose up -d
 ## run apache-php-mysql stack
 docker compose up -d
 
+## run mysql from cli
+mysql -h 127.0.0.1 -P 3336 -u mop_admin -p
+
 web-interface
 <http://localhost:8080/>
 
